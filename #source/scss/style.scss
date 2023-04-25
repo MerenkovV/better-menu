@@ -55,11 +55,12 @@
             font-family: 'Montserrat', sans-serif;
 		}
         
-        &__burger{
+        &__button{
             //display: none;
             grid-column: end;
             position: relative;
             z-index: 4;
+            padding: 20px 0px 20px 20px;
         }
 }
 .wrapper {

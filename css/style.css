@@ -131,10 +131,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
-.header__burger {
+.header__button {
   grid-column: end;
   position: relative;
   z-index: 4;
+  padding: 20px 0px 20px 20px;
 }
 
 .wrapper {
