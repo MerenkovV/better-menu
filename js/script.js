@@ -6,7 +6,7 @@ document.addEventListener("click", menu);
 
 function menu(event){
     
-    if(event.target.closest('.header__burger')){
+    if(event.target.closest('.header__button')){
         menuBody.classList.toggle('_active');
         Burger.classList.toggle('_active');
         return 0;
@@ -16,5 +16,6 @@ function menu(event){
     }
     if(event.target.closest('.body')){
         menuBody.classList.remove('_active');
+        Burger.classList.remove('_active');
     }
 }
