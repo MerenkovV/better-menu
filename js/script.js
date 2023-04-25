@@ -1,14 +1,14 @@
 'use strict';
 
 const menuBody = document.querySelector('.header__list');
-
+const Burger = document.querySelector('.header__burger');
 document.addEventListener("click", menu);
 
 function menu(event){
     
     if(event.target.closest('.header__burger')){
         menuBody.classList.toggle('_active');
-        console.log("HEY!");
+        Burger.classList.toggle('_active');
         return 0;
     }
     if(event.target.closest('.header__list')){
